@@ -1,16 +1,19 @@
 # Node.js Common Components
 
-## Getting Started
+## Contributing
 Requires [Node.js (latest LTS)](https://nodejs.org).
 ```shell
 # Clone project OR download archive from GitHub.
 git clone https://github.com/jordanpatton/nodejs-coco.git
 cd nodejs-coco
 npm install
+# ...make changes...
 npm run build
+# Commit changes. (DO NOT skip the build step!)
 ```
 
 ## Repository Organization
+- `dist`: Pre-built files.
 - `ignore`: Git-ignored folder for transient data (cached sessions, downloaded files, etc.).
 - `src`: Business logic.
   - `components`: Component tree containing large workflows, medium-sized tasks, and miniscule sub-tasks. This codebase favors composition over inheritance, and components may reference one another as needed. Structure changes to match relationships between components.
