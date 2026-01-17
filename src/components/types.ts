@@ -1,1 +1,1 @@
-// This file defines types used by multiple `utilities`.
+// This file defines types used by multiple `components`.

@@ -1,5 +1,5 @@
 /**
- * Main entrypoint for this application.
+ * Entrypoint for this application.
  * 
  * @returns Void.
  */
