@@ -1,27 +1,26 @@
 {
-    "name": "shutter-cli",
-    "description": "Unofficial command-line interface for Shutterfly",
+    "name": "nodejs-coco",
+    "description": "Node.js Common Components",
     "version": "0.0.0",
     "license": "MIT",
     "author": "Jordan Patton",
-    "homepage": "https://github.com/jordanpatton/shutter-cli",
+    "homepage": "https://github.com/jordanpatton/nodejs-coco",
     "keywords": [
-        "cli",
-        "command-line",
-        "interface",
-        "shutterfly"
+        "common",
+        "components",
+        "nodejs"
     ],
     "dependencies": {
-        "node-fetch": "^3.3.2",
-        "puppeteer": "^23.4.0"
+        "node-fetch": "^3.3.2"
     },
     "devDependencies": {
+        "@types/node": "^25.0.9",
         "typescript": "^5.6.2"
     },
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jordanpatton/shutter-cli.git"
+        "url": "git+https://github.com/jordanpatton/nodejs-coco.git"
     },
     "scripts": {
         "build": "npx tsc",
