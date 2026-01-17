@@ -19,7 +19,6 @@ npm run build
 
 ## Links
 - [Node.js](https://nodejs.org)
-- [Node Fetch](https://github.com/node-fetch/node-fetch) (to bypass native `fetch`'s forbidden header limitations)
 - [TSDoc](https://tsdoc.org)
 - [TypeScript](https://www.typescriptlang.org)
 
